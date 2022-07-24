@@ -4,11 +4,6 @@
 /* Fonts Inter*/
 @import url(../vendor/fonts/fonts.css);
 
-/* Fonts Normal, Bold, Extra-bold */
-@import url(../blocks/font/__normal/font__normal.css);
-@import url(../blocks/font/__bold/font__bold.css);
-@import url(..blocks/font/__extra-bold/font__extra-bold.css);
-
 /* Page */
 @import url(../blocks/page/page.css);
 
@@ -30,6 +25,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__span/intro__span.css);
 
 /* Photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
