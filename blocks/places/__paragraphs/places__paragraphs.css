@@ -1,3 +1,22 @@
 .places__paragraphs {
-  max-width: 460px;
+  max-width: 484px;
+}
+
+@media screen and (max-width: 1279px) {
+  .places__paragraphs{
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places__paragraphs{
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__paragraphs{
+    max-width: 288px;
+    padding: 0 16px 0;
+  }
 }
